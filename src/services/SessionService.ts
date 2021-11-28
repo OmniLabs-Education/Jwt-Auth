@@ -27,6 +27,7 @@ export class SessionService {
 
     const token = sign({}, process.env.SECRET_JWT, {
       subject: user.id,
+      expiresIn: '1d'
     });
 
     return { token };
