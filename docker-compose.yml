@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+    database:
+        image: postgres
+        container_name: jwt-auth
+        restart: always
+        ports:
+            - 5433:5432
+        environment:
+            - POSTGRES_USER=jwt-auth
+            - POSTGRES_PASSWORD=123456
+            - POSTGRES_DB=jwt-auth
+        volumes:
+            - pgdata:/data/postgres
+
+volumes:
+    pgdata:
+        driver: local
