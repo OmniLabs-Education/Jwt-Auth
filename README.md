@@ -8,7 +8,7 @@
 
 - 👨‍💻️ [Tecnogias utilizadas](#%EF%B8%8F-tecnogias-utilizadas)
 - 📦️ [Como baixar o projeto](#%EF%B8%8F-como-baixar-o-projeto)
-- 🚀 [Como rodar o projeto](#como-rodar-o-projeto)
+- 🚀 [Como rodar o projeto](#-como-rodar-o-projeto)
 
 ---
 
